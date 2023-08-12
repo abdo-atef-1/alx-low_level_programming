@@ -13,8 +13,8 @@ int main(void)
 		putchar(dig + 48);
 		if (dig != 9)
 		{
-			putchar('.');
-			putchar('.');
+			putchar(',');
+			putchar(',');
 		}
 		dig++;
 	}

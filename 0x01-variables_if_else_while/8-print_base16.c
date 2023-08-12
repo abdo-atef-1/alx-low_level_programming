@@ -6,20 +6,20 @@
 */
 
 int main(void)
-
 {
-		int n = 0;
-		char ch = 'a';
+	int n;
+	char ch;
 
-		while (n <= 9)
+	for (n = 0; n < 10; n++)
+	{
+
+		putchar((n % 10) + '0');
+	}
+
+	for (ch = 'a'; ch <= 'f'; ch++)
 		{
-		putchar(n);
-		n++;
-		}
-		if (ch < 'f')
-
 		putchar(ch);
-		ch++;
+		}
 		putchar('\n');
 		return (0);
 }

@@ -14,7 +14,7 @@ int main(void)
 		if (dig != 9)
 		{
 			putchar(',');
-			putchar(',');
+			putchar(' ');
 		}
 		dig++;
 	}

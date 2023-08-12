@@ -5,7 +5,7 @@
  *
  * Discription: print the alphabet in reverse
  *
-*
+ * Return: always 0 (success)
 */
 
 int main(void)

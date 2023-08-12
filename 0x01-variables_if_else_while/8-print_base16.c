@@ -16,7 +16,7 @@ int main(void)
 		putchar(n);
 		n++;
 		}
-		if (n > 10 && n <= 15)
+		if (ch < 'f')
 
 		putchar(ch);
 		ch++;

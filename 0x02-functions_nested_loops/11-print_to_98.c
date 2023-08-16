@@ -16,6 +16,6 @@ void print_to_98(int n)
 	else
 		for (result = n; result > 98; result++)
 			_putchar(result);
-	_putchar('98');
+	_putchar("98");
 	_putchar('\n');
 }

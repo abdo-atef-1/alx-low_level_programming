@@ -5,7 +5,7 @@
  *			both lowercase or uppercase
  *  @c: takes input from other functions.
  *
- *  return: 1 is c if ture else 0
+ *  Return: 1 is c if ture else 0
 *
 * _isalpha: function
 */

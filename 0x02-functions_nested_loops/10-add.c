@@ -6,7 +6,7 @@
  * @num1: number will add to anather number
  * @num2:number will add to anather number
  *
- * Return: 0 (success)
+ * Return: total (success)
 */
 
 int add(int num1, int num2)
@@ -15,7 +15,6 @@ int add(int num1, int num2)
 
 	total = num1 + num2;
 
-	_putchar(total);
+	return (total);
 
-	return (0);
 }

@@ -7,6 +7,7 @@
  *
  *  return: 1 is c if ture else 0
 *
+* _isalpha: function
 */
 
 int _isalpha(int c)

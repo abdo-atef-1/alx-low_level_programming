@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_ int - swaps the values of two integers
+ * swap_int - swaps the values of two integers
  *
  * @a: input value
  *
@@ -9,13 +9,11 @@
  *
 */
 
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int vod;
 
-	vod = *b;
-
-	*b = *a;
-
-	*b = vod;
+	vod = *a;
+	*a = *b;
+	*a = vod;
 }

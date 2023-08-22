@@ -5,8 +5,6 @@
 #include <stdio.h>
 
 int _putchar(char c);
-int _isupper(int c);
-int _isdigit(int c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
@@ -18,4 +16,4 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 
-#endif
+#endif /* MAIN_H */

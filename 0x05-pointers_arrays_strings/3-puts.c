@@ -1,8 +1,9 @@
 #include "main.h"
 
-/** _puts - print a string followed by a new line to stdout 
+/**
+ * _puts - print a string followed by a new line to stdout
  *
- * @str: is a pointer 
+ * @str: is a pointer
 */
 
 void _puts(char *str)

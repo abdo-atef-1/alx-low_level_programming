@@ -4,20 +4,29 @@
  * rev_string - reverses a string
  *
  * @s: pointer
+ *
+ *  Return: nothing
 */
 
 void rev_string(char *s)
 {
-	int count, x;
-	char revr;
+	int x, tmp, tmp1;
+	char cmp;
 
-	for (1 = 0; s[count] != '\0'; ++count)
-	;
+	tmp = 0;
+	tmp1 = 0;
 
-	for (x = 0; x < count / 2; x++)
+	while (s[tmp] != '\0')
 	{
-		revr = s[x];
-		s[x] = s[count - 1 - x];
-		s[count - 1 - i] = revr;
+		tmp++;
+	}
+
+	tmp1 = tmp - 1;
+
+	for (x = 0; x < tmp / 2; x++)
+	{
+		cmp = s[x];
+		s[x] = s[tmp1];
+		s[tmp1--] = cmp;
 	}
 }

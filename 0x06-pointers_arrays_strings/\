@@ -1,0 +1,28 @@
+#include "main.h"
+
+/**
+ * *_strcat _  inter to coding
+ *
+ * @dest: input character pointer
+ * @srcr: input character pointer
+ *
+ * Return: dest = (success)
+*/
+
+char *_strcat(char *dest, char *src)
+{
+	int x;
+	int x2;
+
+	c = 0;
+
+	 while (dest[c])
+		 c++;
+
+
+	 for (x2 = 0; src[x2] ; x2++)
+
+		 dest[x++] = src[x2];
+
+	 return (dest);
+}

@@ -11,7 +11,7 @@
  * * Return: On success 1.
  * *
  * * If not a number, 0 is returned.
- * */
+*/
 
 int _isnumber(char *s)
 {

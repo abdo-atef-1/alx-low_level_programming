@@ -17,7 +17,7 @@ int _isnumber(char *s)
 {
 	int x, check, y;
 
-	x = 0, d = 0, check = 1;
+	x = 0, y = 0, check = 1;
 	if (*s == '-')
 		x++;
 	for (; *(s + x) != 0; x++)
@@ -38,7 +38,7 @@ int _isnumber(char *s)
  * * @argc: Counts the number of parameters that go into main
  * * @argv: Pointer of array of pointers containing strings entering main
  * * Return: Always 0 (Success)
- * */
+*/
 int main(int argc, char **argv)
 {
 	int i, n, ex;
